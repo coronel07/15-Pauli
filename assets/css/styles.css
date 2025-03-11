@@ -1,9 +1,9 @@
 :root {
 	--white_envelope: #f3f4f5;
-	--gold_envelope: url(../img/gold_texture.png) #e3ca6f;
+	--gold_envelope: url(../img/gold_texture.png) #ffffff;
 	--white_paper_up: #f2f2f2;
-	--gray: #a5a5a5;
-	--gold: #e1b100;
+	--gray: #ffffff;
+	--gold: #ffffff;
 
 	--time-chrome: 9s;
 }
@@ -93,7 +93,7 @@ body {
 .letter {
 	height: calc(var(--vh, 1vh) * 108);
 	width: 100%;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 	position: relative;
 }
 
@@ -284,7 +284,7 @@ header {
 	font-size: min(46px, 6vw);
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
-	color: #464646;
+	color: #ffffff;
 	flex: 2 0 auto;
 }
 
@@ -334,7 +334,7 @@ section p {
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
 		border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
-	color: white;
+	color: rgb(0, 0, 0);
 	background-color: var(--gold);
 	border-radius: 30px;
 	padding: 10px 40px;
@@ -394,7 +394,7 @@ section.galeria .item-galeria a:hover img {
 }
 
 .fancybox-bg {
-	background-color: #443603fa !important;
+	background-color: #000000fa !important;
 }
 
 /*  Nav  */
@@ -418,7 +418,7 @@ ul {
 .nav_a:visited,
 .nav_a:active {
 	text-decoration: none;
-	color: #b68e00;
+	color: #000000;
 }
 
 .nav_a {
@@ -434,7 +434,7 @@ ul {
 
 a.active {
 	background-color: var(--gray);
-	color: #ffffff;
+	color: #000000;
 	font-weight: 500;
 }
 
